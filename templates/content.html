@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Summery</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/master.css')}}" />
+</head>
+<body>
+    <h1>{{title}}</h1>
+    <div class="container">
+        <div class="row">
+            <div class="text">
+                <label for="txt" dir="rtl" class="labtxt">البيانات</label><br>
+                <textarea name="text" id="txt" class="data">
+                    {{data}}
+                </textarea>
+            </div>
+            <div class="summery">
+                <label class="labsum" for="sumy" dir="rtl">الملخص</label><br>
+                <textarea name="sumy" id="sumy" class="sumy">
+                    {{summerize}}
+                </textarea>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
