@@ -45,3 +45,11 @@
         width: 110px;
         background: blue;
     }
+
+.sel{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    left: 650px;
+    top: -70px;
+}

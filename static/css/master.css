@@ -17,6 +17,7 @@
     font-size: 20px;
     word-spacing: 2px;
     overflow: auto;
+    text-align: right;
 }
 .sumy{
     width: 500px;
@@ -25,6 +26,7 @@
     font-size: 20px;
     word-spacing: 2px;
     overflow: auto;
+    text-align: right;
 }
 .labtxt{
     position: absolute;
